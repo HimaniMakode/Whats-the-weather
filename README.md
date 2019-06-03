@@ -16,3 +16,17 @@ Performs a weather check on each of the cities using a series of successive API 
 Includes a print log of each city as it's being processed with the city number and city name.
 
 Saves both a CSV of all data retrieved and png images for each scatter plot.
+
+Observable Trends:
+
+1. Temperature increases towards the equator. However, temperature decreases after 20 degrees latitude.
+
+![Latitude_vs_Temperature](https://user-images.githubusercontent.com/44784856/58780555-20950c80-858e-11e9-89e4-a9257eca5efe.png)
+
+2. Cloudiness and humidity do not show a strong correlation to latitude.
+
+![cvsh](https://user-images.githubusercontent.com/44784856/58780936-5090df80-858f-11e9-8dc5-62a7f0d22208.JPG)
+
+3. Wind speed appears to slightly increase as we move away from the equator.
+
+![Latitude_vs_Wind Speed](https://user-images.githubusercontent.com/44784856/58780963-61d9ec00-858f-11e9-9d09-3d3c162eec9a.png)
